@@ -1,0 +1,140 @@
+name: pangolin
+description: The Desktop Environment for dahliaOS
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0-0 <3.0.0"
+
+dependencies:
+  animations: ^2.0.3
+
+  battery_plus: ^2.0.1
+
+  cached_network_image: ^3.2.0
+  calculator:
+    git:
+      url: https://github.com/dahliaOS/calculator.git
+
+  dahlia_clock:
+    git:
+      url: https://github.com/dahliaOS/clock.git
+
+  easy_localization: ^3.0.2-dev
+
+  files:
+    git:
+      url: https://github.com/dahliaOS/files.git
+      ref: old-base
+  fluentui_system_icons: ^1.1.143
+  flutter:
+    sdk: flutter
+
+  graft:
+    git:
+      url: https://github.com/dahliaOS/graft.git
+
+  hive_flutter: any
+  http: ^0.13.0
+
+  intl: ^0.17.0
+
+  media:
+    git:
+      url: https://github.com/dahliaOS/media.git
+
+  provider: ^6.0.1
+
+  recase: ^4.0.0-nullsafety.0
+
+  system_logs:
+    git:
+      url: https://github.com/dahliaOS/system_logs.git
+
+  task_manager:
+    git:
+      url: https://github.com/dahliaOS/task_manager.git
+  terminal:
+    git:
+      url: https://github.com/dahliaOS/terminal.git
+      ref: main
+  text_editor:
+    git:
+      url: https://github.com/dahliaOS/text_editor.git
+
+  unicons: ^2.0.2
+  utopia_wm:
+    #path: ../utopia/
+    git:
+      url: https://github.com/dahliaOS/utopia.git
+      ref: utopia
+
+  web_browser:
+    git:
+      url: https://github.com/dahliaOS/web_browser.git
+  welcome:
+    git:
+      url: https://github.com/dahliaOS/welcome.git
+      ref: old
+
+  xml: ^5.3.0
+  flag: ^6.0.0
+
+dev_dependencies:
+  lint: ^1.8.2
+#  flutter_test:
+#    sdk: flutter
+#  integration_test:
+#    sdk: flutter
+
+dependency_overrides:
+  material_design_icons_flutter: ^5.0.6295
+  path: 1.8.2
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/wallpapers/
+    - assets/images/logos/
+    - assets/images/other/
+    - assets/icons/
+    - assets/locales/
+    - assets/json/visualData.json
+    - assets/textures/
+    - assets/fonts/
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/CustomIcons.ttf
+    - family: DM-Sans
+      fonts:
+        - asset: assets/fonts/dm-sans/DMSans-Bold.ttf
+        - asset: assets/fonts/dm-sans/DMSans-BoldItalic.ttf
+        - asset: assets/fonts/dm-sans/DMSans-Italic.ttf
+        - asset: assets/fonts/dm-sans/DMSans-Medium.ttf
+        - asset: assets/fonts/dm-sans/DMSans-MediumItalic.ttf
+        - asset: assets/fonts/dm-sans/DMSans-Regular.ttf
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/lato/Lato-Black.ttf
+        - asset: assets/fonts/lato/Lato-BlackItalic.ttf
+        - asset: assets/fonts/lato/Lato-Bold.ttf
+        - asset: assets/fonts/lato/Lato-BoldItalic.ttf
+        - asset: assets/fonts/lato/Lato-Italic.ttf
+        - asset: assets/fonts/lato/Lato-Regular.ttf
+        - asset: assets/fonts/lato/Lato-Light.ttf
+        - asset: assets/fonts/lato/Lato-LightItalic.ttf
+        - asset: assets/fonts/lato/Lato-Thin.ttf
+        - asset: assets/fonts/lato/Lato-Italic.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+    - family: FiraCode
+      fonts:
+        - asset: assets/fonts/firacode/FiraCode-Bold.ttf
+        - asset: assets/fonts/firacode/FiraCode-Medium.ttf
+        - asset: assets/fonts/firacode/FiraCode-Retina.ttf
+        - asset: assets/fonts/firacode/FiraCode-Light.ttf
