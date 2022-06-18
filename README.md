@@ -1,15 +1,4 @@
-# Pangolin Desktop UI [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=dahliaOS%20is%20a%20modern,%20secure,%20lightweight%20and%20responsive%20operating%20system,%20combining%20the%20best%20of%20GNU/Linux%20and%20Fuchsia%20OS&url=https://dahliaos.io&via=realdahliaos&hashtags=dahliaos,linux,zircon,flutter,dart,fuchsia,opensource)
-[![Build and Deploy to Web](https://github.com/dahliaOS/pangolin_desktop/actions/workflows/web.yml/badge.svg?branch=main)](https://github.com/dahliaOS/pangolin_desktop/actions/workflows/web.yml)
-[![Locale Generator](https://github.com/dahliaOS/pangolin_desktop/actions/workflows/locale_gen.yml/badge.svg?branch=main)](https://github.com/dahliaOS/pangolin_desktop/actions/workflows/locale_gen.yml)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fweb.dahliaos.io)
-[![Crowdin](https://badges.crowdin.net/e/1a53a75fb38f15843d4eb6d9b9e4215a/localized.svg)](https://translate.dahliaos.io/pangolin)
-![GitHub](https://img.shields.io/github/license/dahliaos/pangolin-desktop?color=brightgreen)
-
- - **Pangolin UI** is a Desktop shell for dahliaOS, written in Flutter, runs on Linux and Zircon
- - **Pangolin** was named after a shelled animal like the [Armadillo UI](https://9to5google.com/2018/12/26/fuchsia-armadillo-ui-gone/)
- - **Pangolin Desktop** is based on the deprecated Capybara shell, with a custom window management system built from the ground up
- - You can check it online [here](https://web.dahliaos.io)!
-
+# Pangolin Desktop UI 
 <p align="center">
   <img width="100%" src="https://docs.dahliaos.io/img/screenshot/22xxxx/settings.png"
 </p>
