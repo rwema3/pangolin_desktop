@@ -48,3 +48,4 @@ Future<void> main() async {
   await EasyLocalization.ensureInitialized();
 
   //load visual engine
+  await loadVisualEngine();
