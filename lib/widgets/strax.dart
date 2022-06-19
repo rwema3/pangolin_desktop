@@ -103,5 +103,4 @@ class Pangolin extends StatelessWidget {
       home: const Desktop(),
       theme: theme(context),
       locale: context.locale,
-      localizationsDelegates: context.localizationDelegates,
     
