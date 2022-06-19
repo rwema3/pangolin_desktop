@@ -51,4 +51,3 @@ Future<void> main() async {
   await loadVisualEngine();
   if (kIsWeb == false) {
     if (Platform.isLinux) {
-      indexApplications();
