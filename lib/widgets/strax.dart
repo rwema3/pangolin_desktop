@@ -40,4 +40,3 @@ Future<void> main() async {
   //initialize the database
   await DatabaseManager.initialseDatabase();
   //PreferenceProvider();
-
