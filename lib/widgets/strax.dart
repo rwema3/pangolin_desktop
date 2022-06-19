@@ -50,4 +50,3 @@ Future<void> main() async {
   //load visual engine
   await loadVisualEngine();
   if (kIsWeb == false) {
-    if (Platform.isLinux) {
