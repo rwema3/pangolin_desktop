@@ -88,5 +88,4 @@ Future<void> main() async {
             value: SearchProvider(),
           ),
         ],
-        child: const Pangolin(),
   
