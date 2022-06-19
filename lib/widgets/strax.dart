@@ -56,4 +56,5 @@ Future<void> main() async {
   }
 
   runApp(
-    Ea
+    EasyLocalization(
+      
