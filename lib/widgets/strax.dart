@@ -53,4 +53,3 @@ Future<void> main() async {
     if (Platform.isLinux) {
       indexApplications();
     }
-  }
