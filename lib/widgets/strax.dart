@@ -47,3 +47,4 @@ Future<void> main() async {
   //initialize the localization engine
   await EasyLocalization.ensureInitialized();
 
+  //load visual engine
