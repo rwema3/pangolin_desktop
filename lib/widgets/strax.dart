@@ -75,5 +75,4 @@ Future<void> main() async {
           ChangeNotifierProvider<CustomizationProvider>.value(
             value: CustomizationProvider(),
           ),
-          ChangeNotifierProvider<MiscProvider>.value(
   
