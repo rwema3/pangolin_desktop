@@ -64,4 +64,6 @@ Future<void> main() async {
       path: "assets/locales",
       startLocale: const Locale("en", "US"),
       saveLocale: false,
+      child: MultiProvider(
+        providers: [
   
