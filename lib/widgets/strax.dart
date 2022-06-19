@@ -41,4 +41,3 @@ Future<void> main() async {
   await DatabaseManager.initialseDatabase();
   //PreferenceProvider();
 
-  //initialize scheduler for time and date
