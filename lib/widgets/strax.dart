@@ -20,4 +20,3 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:pangolin/components/shell/desktop.dart';
 import 'package:pangolin/services/locales/generated_asset_loader.g.dart';
 import 'package:pangolin/services/visual_engine/visual_engine.dart';
-import 'package:pangolin/utils/data/dap_index.dart';
