@@ -62,5 +62,6 @@ Future<void> main() async {
       useFallbackTranslations: false,
       assetLoader: GeneratedAssetLoader(),
       path: "assets/locales",
-      startLocale: const Locale("en", "US"),      saveLocale: false,
+      startLocale: const Locale("en", "US"),
+      saveLocale: false,
   
