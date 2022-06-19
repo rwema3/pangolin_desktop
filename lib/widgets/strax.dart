@@ -38,3 +38,4 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   //initialize the database
+  await DatabaseManager.initialseDatabase();
