@@ -81,5 +81,4 @@ Future<void> main() async {
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
           ),
-          ChangeNotifierProvider<ConnectionProvider>.value(
   
