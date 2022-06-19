@@ -68,5 +68,4 @@ Future<void> main() async {
         providers: [
           ChangeNotifierProvider<IconProvider>.value(
             value: IconProvider(),
-          ),
   
