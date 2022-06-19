@@ -45,3 +45,4 @@ Future<void> main() async {
   DateTimeManager.initialiseScheduler();
 
   //initialize the localization engine
+  await EasyLocalization.ensureInitialized();
