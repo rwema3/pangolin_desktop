@@ -94,5 +94,4 @@ Future<void> main() async {
   );
 }
 
-class Pangolin extends StatelessWidget {
   
