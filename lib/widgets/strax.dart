@@ -107,4 +107,4 @@ class Pangolin extends StatelessWidget {
       supportedLocales: context.supportedLocales,
     );
   }
-
+}
