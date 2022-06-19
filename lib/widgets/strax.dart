@@ -52,4 +52,3 @@ Future<void> main() async {
   if (kIsWeb == false) {
     if (Platform.isLinux) {
       indexApplications();
-    }
