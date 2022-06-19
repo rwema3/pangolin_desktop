@@ -70,4 +70,5 @@ Future<void> main() async {
             value: IconProvider(),
           ),
           ChangeNotifierProvider<IOProvider>.value(
+            value: IOProvider(),
   
