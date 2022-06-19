@@ -54,3 +54,5 @@ Future<void> main() async {
       indexApplications();
     }
   }
+
+  
