@@ -86,4 +86,5 @@ Future<void> main() async {
           ),
           ChangeNotifierProvider<SearchProvider>.value(
             value: SearchProvider(),
+          ),
   
