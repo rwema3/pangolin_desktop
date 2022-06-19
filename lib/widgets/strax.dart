@@ -57,4 +57,5 @@ Future<void> main() async {
 
   runApp(
     EasyLocalization(
+      supportedLocales: Locales.supported,
       
