@@ -83,5 +83,4 @@ Future<void> main() async {
           ),
           ChangeNotifierProvider<ConnectionProvider>.value(
             value: ConnectionProvider(),
-          ),
   
