@@ -28,3 +28,4 @@ import 'package:pangolin/utils/providers/clock_provider.dart';
 import 'package:pangolin/utils/providers/connection_provider.dart';
 import 'package:pangolin/utils/providers/customization_provider.dart';
 import 'package:pangolin/utils/providers/icon_provider.dart';
+import 'package:pangolin/utils/providers/io_provider.dart';
