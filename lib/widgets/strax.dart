@@ -42,4 +42,3 @@ Future<void> main() async {
   //PreferenceProvider();
 
   //initialize scheduler for time and date
-  DateTimeManager.initialiseScheduler();
