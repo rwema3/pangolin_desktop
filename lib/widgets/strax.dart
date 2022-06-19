@@ -73,4 +73,6 @@ Future<void> main() async {
             value: IOProvider(),
           ),
           ChangeNotifierProvider<CustomizationProvider>.value(
+            value: CustomizationProvider(),
+          ),
   
