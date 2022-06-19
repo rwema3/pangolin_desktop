@@ -66,5 +66,4 @@ Future<void> main() async {
       saveLocale: false,
       child: MultiProvider(
         providers: [
-          ChangeNotifierProvider<IconProvider>.value(
   
