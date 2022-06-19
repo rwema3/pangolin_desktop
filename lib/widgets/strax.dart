@@ -44,3 +44,4 @@ Future<void> main() async {
   //initialize scheduler for time and date
   DateTimeManager.initialiseScheduler();
 
+  //initialize the localization engine
