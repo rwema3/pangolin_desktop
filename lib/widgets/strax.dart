@@ -67,5 +67,4 @@ Future<void> main() async {
       child: MultiProvider(
         providers: [
           ChangeNotifierProvider<IconProvider>.value(
-            value: IconProvider(),
   
