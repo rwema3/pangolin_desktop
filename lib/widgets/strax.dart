@@ -15,4 +15,3 @@ limitations under the License.
 */
 import 'dart:io' show Platform;
 
-import 'package:easy_localization/easy_localization.dart';
