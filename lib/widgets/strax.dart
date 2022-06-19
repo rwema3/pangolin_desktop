@@ -26,3 +26,4 @@ import 'package:pangolin/utils/extensions/extensions.dart';
 import 'package:pangolin/utils/other/date_time_manager.dart';
 import 'package:pangolin/utils/providers/clock_provider.dart';
 import 'package:pangolin/utils/providers/connection_provider.dart';
+import 'package:pangolin/utils/providers/customization_provider.dart';
