@@ -91,6 +91,7 @@ Future<void> main() async {
  
 
 class Pangolin extends StatelessWidget {
+  const Pangolin({Key? key}) : super(key: key);
 
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
