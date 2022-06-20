@@ -82,8 +82,6 @@ Future<void> main() async {
             value: ClockProvider(),
           ),
           ChangeNotifierProvider<ConnectionProvider>.value(
-            value: ConnectionProvider(),
-          ),
 
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
