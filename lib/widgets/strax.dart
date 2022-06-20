@@ -83,3 +83,7 @@ Future<void> main() async {
           ),
 
       localizationsDelegates: context.localizationDelegates,
+      supportedLocales: context.supportedLocales,
+    );
+  }
+}
