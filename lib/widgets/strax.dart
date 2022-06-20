@@ -98,7 +98,6 @@ class Pangolin extends StatelessWidget {
     return MaterialApp(
       home: const Desktop(),
       theme: theme(context),
-      locale: context.locale,
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
     );
