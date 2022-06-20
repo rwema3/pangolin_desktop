@@ -88,7 +88,11 @@ Future<void> main() async {
             value: SearchProvider(),
           ),
         ],
- 
+        child: const Pangolin(),
+      ),
+    ),
+  );
+}
 
 class Pangolin extends StatelessWidget {
   const Pangolin({Key? key}) : super(key: key);
