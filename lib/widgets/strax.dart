@@ -85,6 +85,11 @@ Future<void> main() async {
             value: ConnectionProvider(),
           ),
           ChangeNotifierProvider<SearchProvider>.value(
+            value: SearchProvider(),
+          ),
+        ],
+ 
+
 
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
