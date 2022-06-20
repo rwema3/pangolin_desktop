@@ -82,4 +82,3 @@ Future<void> main() async {
             value: ClockProvider(),
           ),
 
-      localizationsDelegates: context.localizationDelegates,
