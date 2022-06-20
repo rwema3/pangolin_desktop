@@ -94,7 +94,6 @@ class Pangolin extends StatelessWidget {
   const Pangolin({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildCon
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
     );
