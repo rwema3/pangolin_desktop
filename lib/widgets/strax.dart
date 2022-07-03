@@ -37,11 +37,6 @@ import 'package:provider/provider.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  //initialize the database
-  await DatabaseManager.initialseDatabase();
-  //PreferenceProvider();
-
-  
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
           ),
