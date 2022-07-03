@@ -42,6 +42,9 @@ Future<void> main() async {
   //PreferenceProvider();
 
   //initialize scheduler for time and date
+  DateTimeManager.initialiseScheduler();
+
+  //initialize the localization engine
   
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
