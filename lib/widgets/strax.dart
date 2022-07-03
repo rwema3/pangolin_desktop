@@ -81,9 +81,6 @@ Future<void> main() async {
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
           ),
-
-  @override
-  Widget build(BuildContext context) {
     return MaterialApp(
       home: const Desktop(),
       theme: theme(context),
