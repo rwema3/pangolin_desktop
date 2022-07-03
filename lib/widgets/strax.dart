@@ -45,9 +45,6 @@ Future<void> main() async {
   DateTimeManager.initialiseScheduler();
 
   //initialize the localization engine
-  await EasyLocalization.ensureInitialized();
-
-  //load visual engine
   
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
