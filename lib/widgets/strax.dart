@@ -85,9 +85,6 @@ Future<void> main() async {
             value: ConnectionProvider(),
           ),
           ChangeNotifierProvider<SearchProvider>.value(
-            value: SearchProvider(),
-          ),
-        ],
 
   @override
   Widget build(BuildContext context) {
