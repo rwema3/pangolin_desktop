@@ -81,8 +81,6 @@ Future<void> main() async {
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
           ),
-    return MaterialApp(
-      home: const Desktop(),
       theme: theme(context),
       locale: context.locale,
       localizationsDelegates: context.localizationDelegates,
