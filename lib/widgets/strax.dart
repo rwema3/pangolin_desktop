@@ -55,10 +55,7 @@ Future<void> main() async {
     }
   }
 
-        pr),
-          ChangeNotifierProvider<MiscProvider>.value(
-            value: MiscProvider(),
-          ),
+        pr
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
           ),
