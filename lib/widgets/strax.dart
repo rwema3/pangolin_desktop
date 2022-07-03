@@ -48,9 +48,7 @@ Future<void> main() async {
   await EasyLocalization.ensureInitialized();
 
   //load visual engine
-  await loadVisualEngine();
-  if (kIsWeb == false) {
-    
+  
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
           ),
