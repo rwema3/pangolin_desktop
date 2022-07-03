@@ -55,7 +55,11 @@ Future<void> main() async {
     }
   }
 
-        prChangeNotifierProvider<CustomizationProvider>.value(
+        pr),
+          ChangeNotifierProvider<IOProvider>.value(
+            value: IOProvider(),
+          ),
+          ChangeNotifierProvider<CustomizationProvider>.value(
             value: CustomizationProvider(),
           ),
           ChangeNotifierProvider<MiscProvider>.value(
