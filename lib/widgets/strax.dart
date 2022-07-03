@@ -81,6 +81,7 @@ Future<void> main() async {
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
           ),
+      supportedLocales: context.supportedLocales,
     );
   }
 }
