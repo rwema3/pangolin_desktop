@@ -55,16 +55,6 @@ Future<void> main() async {
     }
   }
 
-  runApp(
-    EasyLocalization(
-      supportedLocales: Locales.supported,
-      fallbackLocale: const Locale("en", "US"),
-      useFallbackTranslations: false,
-      assetLoader: GeneratedAssetLoader(),
-      path: "assets/locales",
-      startLocale: const Locale("en", "US"),
-      saveLocale: false,
-      child: MultiProvider(
         providers: [
           ChangeNotifierProvider<IconProvider>.value(
             value: IconProvider(),
@@ -81,7 +71,6 @@ Future<void> main() async {
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
           ),
-      supportedLocales: context.supportedLocales,
     );
   }
 }
