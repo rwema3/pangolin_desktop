@@ -34,9 +34,6 @@ import 'package:pangolin/utils/providers/search_provider.dart';
 import 'package:pangolin/utils/theme/theme.dart';
 import 'package:provider/provider.dart';
 
-          ChangeNotifierProvider<MiscProvider>.value(
-            value: MiscProvider(),
-          ),
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
           ),
