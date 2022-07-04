@@ -35,6 +35,14 @@ import 'package:pangolin/utils/theme/theme.dart';
 import 'package:provider/provider.dart';
 
 
+  //load visual engine
+  await loadVisualEngine();
+  if (kIsWeb == false) {
+    if (Platform.isLinux) {
+      indexApplications();
+    }
+  }
+
   runApp(
     EasyLocalization(
       supportedLocales: Locales.supported,
