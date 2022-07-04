@@ -34,6 +34,13 @@ import 'package:pangolin/utils/providers/search_provider.dart';
 import 'package:pangolin/utils/theme/theme.dart';
 import 'package:provider/provider.dart';
 
+      assetLoader: GeneratedAssetLoader(),
+      path: "assets/locales",
+      startLocale: const Locale("en", "US"),
+      saveLocale: false,
+      child: MultiProvider(
+        providers: [
+          ChangeNotifierProvider<IconProvider>.value(
             value: IconProvider(),
           ),
           ChangeNotifierProvider<IOProvider>.value(
