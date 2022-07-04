@@ -34,12 +34,6 @@ import 'package:pangolin/utils/providers/search_provider.dart';
 import 'package:pangolin/utils/theme/theme.dart';
 import 'package:provider/provider.dart';
 
-
-  runApp(
-    EasyLocalization(
-      supportedLocales: Locales.supported,
-      fallbackLocale: const Locale("en", "US"),
-      useFallbackTranslations: false,
       assetLoader: GeneratedAssetLoader(),
       path: "assets/locales",
       startLocale: const Locale("en", "US"),
