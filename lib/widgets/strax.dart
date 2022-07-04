@@ -34,8 +34,6 @@ import 'package:pangolin/utils/providers/search_provider.dart';
 import 'package:pangolin/utils/theme/theme.dart';
 import 'package:provider/provider.dart';
 
-  //initialize the localization engine
-  await EasyLocalization.ensureInitialized();
 
   //load visual engine
   await loadVisualEngine();
