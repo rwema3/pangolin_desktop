@@ -37,7 +37,10 @@ import 'package:provider/provider.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  
+  //initialize the database
+  await DatabaseManager.initialseDatabase();
+  //PreferenceProvider();
+
   //initialize scheduler for time and date
   DateTimeManager.initialiseScheduler();
 
