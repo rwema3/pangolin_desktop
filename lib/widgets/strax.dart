@@ -34,8 +34,6 @@ import 'package:pangolin/utils/providers/search_provider.dart';
 import 'package:pangolin/utils/theme/theme.dart';
 import 'package:provider/provider.dart';
 
-Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
 
   //initialize the database
   await DatabaseManager.initialseDatabase();
