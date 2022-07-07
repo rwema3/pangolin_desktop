@@ -63,7 +63,10 @@ import 'package:provider/provider.dart';
           ChangeNotifierProvider<MiscProvider>.value(
             value: MiscProvider(),
           ),
-          
+          ChangeNotifierProvider<ClockProvider>.value(
+            value: ClockProvider(),
+          ),
+         
         child: const Pangolin(),
       ),
     ),
