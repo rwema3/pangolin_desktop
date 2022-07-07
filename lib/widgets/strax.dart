@@ -42,6 +42,13 @@ import 'package:provider/provider.dart';
   //initialize the localization engine
   await EasyLocalization.ensureInitialized();
 
+  //load visual engine
+  await loadVisualEngine();
+  if (kIsWeb == false) {
+    if (Platform.isLinux) {
+      indexApplications();
+    }
+  }
 
   runApp(
     EasyLocalization(
