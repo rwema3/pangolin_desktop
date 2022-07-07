@@ -54,6 +54,9 @@ import 'package:provider/provider.dart';
           ChangeNotifierProvider<IconProvider>.value(
             value: IconProvider(),
           ),
+          ChangeNotifierProvider<IOProvider>.value(
+            value: IOProvider(),
+          ),
           
         child: const Pangolin(),
       ),
