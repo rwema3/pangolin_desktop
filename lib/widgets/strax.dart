@@ -66,9 +66,6 @@ import 'package:provider/provider.dart';
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
           ),
-          ChangeNotifierProvider<ConnectionProvider>.value(
-            value: ConnectionProvider(),
-          ),
          
         child: const Pangolin(),
       ),
