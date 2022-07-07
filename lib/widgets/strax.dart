@@ -69,7 +69,10 @@ import 'package:provider/provider.dart';
           ChangeNotifierProvider<ConnectionProvider>.value(
             value: ConnectionProvider(),
           ),
-         
+          ChangeNotifierProvider<SearchProvider>.value(
+            value: SearchProvider(),
+          ),
+        ],
         child: const Pangolin(),
       ),
     ),
