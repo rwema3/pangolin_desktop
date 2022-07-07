@@ -39,6 +39,9 @@ import 'package:provider/provider.dart';
   //initialize scheduler for time and date
   DateTimeManager.initialiseScheduler();
 
+  //initialize the localization engine
+  await EasyLocalization.ensureInitialized();
+
 
   runApp(
     EasyLocalization(
