@@ -60,6 +60,9 @@ import 'package:provider/provider.dart';
           ChangeNotifierProvider<CustomizationProvider>.value(
             value: CustomizationProvider(),
           ),
+          ChangeNotifierProvider<MiscProvider>.value(
+            value: MiscProvider(),
+          ),
           
         child: const Pangolin(),
       ),
