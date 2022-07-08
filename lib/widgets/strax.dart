@@ -47,6 +47,12 @@ import 'package:provider/provider.dart';
 
   //load visual engine
   
+          ChangeNotifierProvider<ClockProvider>.value(
+            value: ClockProvider(),
+          ),
+          ChangeNotifierProvider<ConnectionProvider>.value(
+            value: ConnectionProvider(),
+          ),
           ChangeNotifierProvider<SearchProvider>.value(
             value: SearchProvider(),
           ),
