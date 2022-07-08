@@ -47,6 +47,14 @@ import 'package:provider/provider.dart';
 
   //load visual engine
   
+ 
+        providers: [
+          ChangeNotifierProvider<IconProvider>.value(
+            value: IconProvider(),
+          ),
+          ChangeNotifierProvider<IOProvider>.value(
+            value: IOProvider(),
+          ),
           ChangeNotifierProvider<CustomizationProvider>.value(
             value: CustomizationProvider(),
           ),
