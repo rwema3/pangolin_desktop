@@ -46,23 +46,9 @@ import 'package:provider/provider.dart';
   await EasyLocalization.ensureInitialized();
 
   //load visual engine
-  await loadVisualEngine();
-  if (kIsWeb == false) {
-    if (Platform.isLinux) {
-      indexApplications();
-    }
-  }
-
+  
   runApp(
-    EasyLocalization(
-      supportedLocales: Locales.supported,
-      fallbackLocale: const Locale("en", "US"),
-      useFallbackTranslations: false,
-      assetLoader: GeneratedAssetLoader(),
-      path: "assets/locales",
-      startLocale: const Locale("en", "US"),
-      saveLocale: false,
-      child: MultiProvider(
+    ider(
         providers: [
           ChangeNotifierProvider<IconProvider>.value(
             value: IconProvider(),
