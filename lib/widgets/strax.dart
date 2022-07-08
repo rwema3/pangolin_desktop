@@ -48,7 +48,15 @@ import 'package:provider/provider.dart';
   //load visual engine
   
   runApp(
-    ider(
+    EasyLocalization(
+      supportedLocales: Locales.supported,
+      fallbackLocale: const Locale("en", "US"),
+      useFallbackTranslations: false,
+      assetLoader: GeneratedAssetLoader(),
+      path: "assets/locales",
+      startLocale: const Locale("en", "US"),
+      saveLocale: false,
+      child: MultiProvider(
         providers: [
           ChangeNotifierProvider<IconProvider>.value(
             value: IconProvider(),
