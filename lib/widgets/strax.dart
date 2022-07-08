@@ -43,19 +43,7 @@ import 'package:provider/provider.dart';
   DateTimeManager.initialiseScheduler();
 
   //initialize the localization engine
-  await EasyLocalization.ensureInitialized();
 
-  //load visual engine
-  
-          ChangeNotifierProvider<SearchProvider>.value(
-            value: SearchProvider(),
-          ),
-        ],
-        child: const Pangolin(),
-      ),
-    ),
-  );
-}
 
 class Pangolin extends StatelessWidget {
   const Pangolin({Key? key}) : super(key: key);
