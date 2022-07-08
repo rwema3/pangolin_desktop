@@ -47,12 +47,6 @@ import 'package:provider/provider.dart';
 
   //load visual engine
   
-          ChangeNotifierProvider<CustomizationProvider>.value(
-            value: CustomizationProvider(),
-          ),
-          ChangeNotifierProvider<MiscProvider>.value(
-            value: MiscProvider(),
-          ),
           ChangeNotifierProvider<ClockProvider>.value(
             value: ClockProvider(),
           ),
