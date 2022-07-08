@@ -47,9 +47,7 @@ import 'package:provider/provider.dart';
 
   //load visual engine
   
-  runApp(
-    ider(
-        providers: [
+      providers: [
           ChangeNotifierProvider<IconProvider>.value(
             value: IconProvider(),
           ),
