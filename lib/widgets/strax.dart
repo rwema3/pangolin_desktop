@@ -48,9 +48,6 @@ import 'package:provider/provider.dart';
           ChangeNotifierProvider<CustomizationProvider>.value(
             value: CustomizationProvider(),
           ),
-          ChangeNotifierProvider<MiscProvider>.value(
-            value: MiscProvider(),
-          ),
         
           ChangeNotifierProvider<ConnectionProvider>.value(
             value: ConnectionProvider(),
