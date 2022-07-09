@@ -36,7 +36,6 @@ import 'package:provider/provider.dart';
 
 
   //initialize the database
-  await DatabaseManager.initialseDatabase();
   
       child: MultiProvider(
         providers: [
