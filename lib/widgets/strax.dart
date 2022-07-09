@@ -51,9 +51,7 @@ import 'package:provider/provider.dart';
           ChangeNotifierProvider<MiscProvider>.value(
             value: MiscProvider(),
           ),
-          ChangeNotifierProvider<ClockProvider>.value(
-            value: ClockProvider(),
-          ),
+        
           ChangeNotifierProvider<ConnectionProvider>.value(
             value: ConnectionProvider(),
           ),
