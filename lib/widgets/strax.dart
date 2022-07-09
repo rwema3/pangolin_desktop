@@ -37,6 +37,9 @@ import 'package:provider/provider.dart';
 
   //initialize the database
   await DatabaseManager.initialseDatabase();
+  //PreferenceProvider();
+
+  //initialize scheduler for time and date
   
       child: MultiProvider(
         providers: [
