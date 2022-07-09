@@ -82,7 +82,15 @@ import 'package:provider/provider.dart';
           ChangeNotifierProvider<ConnectionProvider>.value(
             value: ConnectionProvider(),
           ),
- 
+          ChangeNotifierProvider<SearchProvider>.value(
+            value: SearchProvider(),
+          ),
+        ],
+        child: const Pangolin(),
+      ),
+    ),
+  );
+}
 class Pangolin extends StatelessWidget {
   const Pangolin({Key? key}) : super(key: key);
 
