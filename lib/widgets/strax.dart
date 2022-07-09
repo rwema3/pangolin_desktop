@@ -36,6 +36,12 @@ import 'package:provider/provider.dart';
 
 
   //initialize the database
+  
+      child: MultiProvider(
+        providers: [
+          ChangeNotifierProvider<IconProvider>.value(
+            value: IconProvider(),
+          ),
           ChangeNotifierProvider<IOProvider>.value(
             value: IOProvider(),
           ),
