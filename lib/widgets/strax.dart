@@ -40,6 +40,9 @@ import 'package:provider/provider.dart';
   //PreferenceProvider();
 
   //initialize scheduler for time and date
+  DateTimeManager.initialiseScheduler();
+
+  //initialize the localization engine
   
       child: MultiProvider(
         providers: [
