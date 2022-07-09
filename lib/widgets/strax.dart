@@ -92,15 +92,5 @@ import 'package:provider/provider.dart';
   );
 }
 
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: const Desktop(),
-      theme: theme(context),
-      locale: context.locale,
-      localizationsDelegates: context.localizationDelegates,
-      supportedLocales: context.supportedLocales,
-    );
   }
 }
