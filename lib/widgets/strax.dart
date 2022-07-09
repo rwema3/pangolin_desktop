@@ -43,10 +43,6 @@ import 'package:provider/provider.dart';
   DateTimeManager.initialiseScheduler();
 
   //initialize the localization engine
-  await EasyLocalization.ensureInitialized();
-
-  //load visual engine
-  
   
       child: MultiProvider(
         providers: [
