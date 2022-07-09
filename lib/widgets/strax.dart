@@ -45,6 +45,9 @@ import 'package:provider/provider.dart';
           ChangeNotifierProvider<IOProvider>.value(
             value: IOProvider(),
           ),
+          ChangeNotifierProvider<CustomizationProvider>.value(
+            value: CustomizationProvider(),
+          ),
         
           ChangeNotifierProvider<ConnectionProvider>.value(
             value: ConnectionProvider(),
